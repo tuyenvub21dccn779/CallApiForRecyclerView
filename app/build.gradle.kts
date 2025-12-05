@@ -34,6 +34,9 @@ android {
 }
 
 dependencies {
+
+    implementation(libs.glide)
+    implementation(libs.circleimageview)
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.gson)
