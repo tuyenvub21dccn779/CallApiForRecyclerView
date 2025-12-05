@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
-    private String getBasicAuthericd zation(String username, String password) {
+    private String getBasicAutherization(String username, String password) {
         String autherizationStr = Const.BASIC_AUTHORIZATION + Base64.encodeToString((username + ":" + password).getBytes(), Base64.NO_WRAP);
         Log.e(MainActivity.class.getName(), autherizationStr);
         return autherizationStr;
